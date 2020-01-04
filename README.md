@@ -2,6 +2,8 @@
 ## Requirements
 * PyCharm
 * Python 2.7/3.5
+* Google Cloud Platform
+* Keras
 * Multi-Layer Perceptron
 
 ## Description
