@@ -7,7 +7,7 @@
 * Multi-Layer Perceptron
 
 ## Introduction
-This project built a Multi-Layer Perception (“MLP”) model to classify the cells into 4 different categories, which are: “red blood cell”, “ring”, “schizont”, and “trophozoite.” The best model over the past seven-day data challenge competition has achieved a reasonable performance with a 0.6147 macro-averaged F1-score and 0.6212 Cohen’s Kappa Score. The average score of the two is 0.6179.
+This project built a Multi-Layer Perception (“MLP”) model to classify the cells into 4 different categories, which are: “red blood cell”, “ring”, “schizont”, and “trophozoite.” The best model in the seven-day data challenge competition achieved a reasonable performance with a 0.6147 macro-averaged F1-score and 0.6212 Cohen’s Kappa Score.
 
 ## Dataset
 The original dataset (“the Train dataset”) contains 8,607 cell images of size 100 X 103 and 8,607 txt files recording the corresponding string label for each cell image. Of the 8,607 cell images, 7,000 are red blood cell, 365 are ring, 133 are schizont, and 1,109 are trophozoite. Since the dataset is unbalanced and the raw data (.png and .txt) cannot be directly used to train the network, the following steps were performed to preprocess the dataset.
